@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<!-- saved from url=(0038)http://127.0.0.1:5500/boostrap/b.html# -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="./sacmalamak_files/bootstrap.min.css" rel="stylesheet">
+    <link href="./sacmalamak_files/docs.css" rel="stylesheet">
+    <title>Document</title> <link rel="stylesheet" href="./sacmalamak_files/ahmet.css">
+    <script src="./sacmalamak_files/bootstrap.bundle.min.js.indir"></script>
+    <link href="./sacmalamak_files/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+<script src="./sacmalamak_files/bootstrap.bundle.min.js.indir" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+<script src="./sacmalamak_files/popper.min.js.indir" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+<script src="./sacmalamak_files/bootstrap.min.js.indir" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
+  </head>
+  <body>
+   
+    <div class="container">
+      <div class="card" style="width: 18rem;">
+        <img src="./sacmalamak_files/indir.jpg" class="card-img-top" alt="">
+        <div class="card-body">
+          <h5 class="card-title">Muhteşem tasarım ve dizaynı görmek istiyorsanız tıklamanız yeterli</h5>
+          <p class="card-text">Görünenden daha fazlası.</p>
+          <a href="https://www.audi.com.tr/tr/web/tr.html" class="btn btn-primary">Muhteşemliğe açılan kapının anahtarı</a>
+        </div>
+      </div>
+    </div>
+
+  <!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>
